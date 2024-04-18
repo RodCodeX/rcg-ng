@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "primeng/resources/themes/aura-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+@import "primeflex/primeflex.css";
+
+/* Global styles */
+@import "assets/scss/global";
+
+/* Global variables */
+@import "assets/scss/variables";
+
+
+.bgLogin{
+  background: rgb(2,0,36);
+  background: linear-gradient(43deg, rgba(2,0,36,1) 0%, rgba(4,3,62,1) 4%, rgba(9,9,121,1) 14%, rgba(0,212,255,1) 93%); 
+}
