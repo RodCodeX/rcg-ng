@@ -8,6 +8,11 @@ export const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'home',
+    title: 'Home',
+    loadComponent: () => import('./layout/layout-admin/layout-admin.component').then(c => c.LayoutAdminComponent),
+  },
+  {
     path: 'login',
     title: 'Login',
     loadComponent: () => import('./pages/authentication/login/login.component').then(c => c.LoginComponent)
